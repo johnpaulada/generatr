@@ -1,0 +1,31 @@
+{
+  "name": "@johnpaulada/generatr",
+  "version": "0.1.0",
+  "description": "Generate text using user-defined grammar.",
+  "main": "index.js",
+  "module": "index.es.js",
+  "browser": "generatr.min.js",
+  "repository": {
+    "type": "Github",
+    "url": "https://github.com/johnpaulada/generatr"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "rollup -c"
+  },
+  "keywords": [
+    "text-generator",
+    "javascript"
+  ],
+  "author": "John Paul Ada",
+  "private": false,
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.78.0",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-uglify-es": "^0.0.1"
+  }
+}

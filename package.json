@@ -1,6 +1,6 @@
 {
   "name": "generatr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate text using user-defined grammar.",
   "main": "index.js",
   "module": "index.mjs",

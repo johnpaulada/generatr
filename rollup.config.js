@@ -9,7 +9,7 @@ export default {
       format: 'cjs'
     },
     {
-      file: 'index.es.js',
+      file: 'index.mjs',
       format: 'es'
     },
     {

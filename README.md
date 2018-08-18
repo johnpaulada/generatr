@@ -1,6 +1,9 @@
 # Generatr
 A text generation library based on Tracery.
 
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
 ## Rationale
 I tried to use Tracery on a React project, but couldn't get it to work. So I built a simple one based on it.
 

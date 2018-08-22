@@ -10,7 +10,7 @@ I tried to use Tracery on a React project, but couldn't get it to work. So I bui
 ## Quickstart
 ### Import via `require`
 ```javascript
-const Generatr from 'generatr'
+const Generatr = require('generatr')
 ```
 
 ### Import as ES module

@@ -23,5 +23,34 @@ import Generatr from 'generatr'
 <script src="https://cdn.jsdelivr.net/npm/generatr@0.1.1/generatr.min.js"></script>
 ```
 
+### Creating a text generator with Generatr
+To create a text generator, you need to supply it with a `grammar` object
+
+#### Example:
+```javascript
+const generator = Generatr(grammar)
+```
+
+### Creating a Generatr grammar
+A Generatr grammar is just an object whose values are either strings or arrays.
+
+#### Example
+```javascript
+const grammar = {
+  title: "{{adjective}} {{noun}}"
+  adjective: ["Awesome", "Sad", "Nice"],
+  noun: ["Person", "Animal"]
+}
+```
+
+Inside of `{{` and `}}` should be a key inside the grammar object.
+In this example, the `{{adjective}}` template will be replaced by one of the strings in the `adjective` key.
+The same would happen with the `{{noun}}` template. You can even nest it or make it recursive but make sure that it will somehow end.
+
+To actually generate some text, run `generator.generate("title")`. This will generate text using the template in the `title` key of the grammar object.
+
+## Apps that use this
+1. [Thesis Title Generator](https://jepe-thesis-title-generator.netlify.com/) - This is a CS/IT thesis title generator that uses Generatr to generate the text.
+
 ## License
 MIT
